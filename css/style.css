@@ -1,0 +1,175 @@
+:root {
+    --mini-text-color: #757575;
+    --max-text-color: #212121;
+    --primary-color: #FFFFFF;
+    --team-background-color: #F5F4FA;
+    --header-footer-background-color: #2F303A;
+    --button-backgrouhd-color: #2196F3;
+    --logo-color: #000000;
+}
+
+/* Шрифти */
+body {
+    font-family: 'Roboto';
+}
+/* header */
+a[href*="./index.html"] {
+    color: #2196F3;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.78px;
+}
+.navigation-link {
+    color: #212121;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+}
+a[href*="mailto:info@devstudio.com.html"] {
+    color: #2196F3;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+}
+a[href*="tel:+380961111111h.html"] {
+    color: #757575;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+}
+ /* main */
+ .page {
+    background-color: #2F303A;
+ }
+ .page-title {
+    color: var(--primary-color);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+ }
+ .page-button {
+    background-color: #2196F3;
+    color: var(--primary-color);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.96px;
+ }
+ .section-slogan {
+    color: #212121;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+ }
+ .section-text {
+    color: #757575;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+ }
+ .aside-subtitle {
+    color: #212121;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 1.08px;
+ }
+ .widget-subtitle {
+    color: #212121;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 1.08px;
+ }
+ .widget-slogan {
+    color: #212121;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+ }
+ .widget-text {
+    color: #757575;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+ }
+ a[href^="https"] {
+    color: var(--mini-text-color);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: 0.42px;
+ }
+ /* portfolio */
+ .content-button {
+    color: #212121;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.62;
+        letter-spacing: 0.48px;
+        background-color: #F5F4FA;
+ }
+.content-subtitle {
+    color: #212121;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2;
+        letter-spacing: 1.08px;
+}
+.content-text {
+    color: #757575;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.87;
+        letter-spacing: 0.48px;
+}
